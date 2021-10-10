@@ -1,0 +1,9 @@
+#!/bin/bash
+yum install -y httpd
+sudo amazon-linux-extras install nginx
+cd /var/www/html/
+npm init --force --yes
+npm i ejs
+npm i express
+npm i knex
+npm i mysql
